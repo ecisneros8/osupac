@@ -1,0 +1,138 @@
+! This file includes a plasma kinetics model for Ar-CxHy-O2.  Primary reaction
+! sets include metastable Ar chemistry/quenching, ion-reactions, and quenching
+! of oxygen electornic states by hydrocarbons
+ELEM E O AR N C H
+END
+
+SPECIES
+E
+O2 O2(v1) O2(v2) O2(v3) O2(v4) O2(a1Delta) O2(b1Sigma)  O2+
+O O(1S) O(1D)
+O3
+N2 N
+AR AR* AR+
+H2 H
+H3+ H*
+OH HO2
+CH4 CH3 CH2 CH3O
+C2H C2H2 C2H3 C2H4 C2H5 C2H6
+C2H+ C2H2+
+C3H5 C3H6 IC3H7 NC3H7 C3H8
+C2H6 C2H5
+END
+
+REACTIONS KELVIN MOLECULES
+
+E + AR => E + AR    4.953E-09    0.00        0.00
+     TDEP/E/     
+     EXCI/ -0.0002/!
+
+E + O2 => E + O2    4.953E-09    0.00        0.00
+     TDEP/E/      
+     EXCI/ -0.0002/
+
+!*************************************************************************************************************************************
+! Ar plasma: reactions of electronically excited species
+!*************************************************************************************************************************************
+AR* + AR => AR + AR		0.220e-14	0.00	0.00
+AR* + AR + AR => AR + AR + AR	0.140e-31	0.00	0.00
+AR* + O2 => AR + O + O		0.210e-09	0.00	0.00	! Piper 1973
+AR* + N2 => AR + N + N		0.360e-10	0.00	0.00	! Velazco 1978
+AR* + H2 => AR + H + H		0.660e-10	0.00	0.00	! Velazco 1978
+AR* + CH4 => AR + CH2 + H + H	0.220e-09 	0.00	0.00	! Piper 1973 gives total quenching by CH4 of 0.33e-9 cm^3/s
+AR* + CH4 => AR + CH2 + H2	0.110e-09	0.00	0.00	! Jauberteau 1997 gives ratio of about 1:2 for these two product branches
+AR* + CH4 => AR + CH + H2 + H  30.00e-12	0.00	0.00	! Sekiya 1990
+AR* + C2H4 => AR + C2H3 + H	0.540e-09	0.00	0.00	! Velazco 1978
+AR* + C2H2 => AR + C2H + H	0.560e-09	0.00	0.00	! Piper 1973
+AR* + C2H6 => AR + C2H5 + H	0.660e-09 	0.00	0.00 ! Matches total rate coeff from Sekiya 1990, and reaction path is same as in Lombardi 2004
+AR* + C2H6 => AR + CH + CH3 + H2	1.500e-12	0.00	0.00	! Sekiya 1990
+AR* + C2H6 => AR + CH + CH4 + H	1.500e-12	0.00	0.00	! Sekiya 1990
+AR* + C3H8 => AR + NC3H7 + H	0.365e-09	0.00	0.00	! Piper 1973 - split half and half with below
+AR* + C3H8 => AR + IC3H7 + H	0.365e-09	0.00	0.00	! Piper 1973
+
+! Ar Plasma processes from Lombardi 2004
+AR+ + E + E => AR* + E		1.000e-34	0.00	0.00	! vandDeSanden 1993 - estimated due to Te dependence
+C2H + AR+ => C2H+ + AR		1.000e-10	0.00	0.00	! Engeln 1999
+CH4 + AR+ => CH2 + H2+ + AR    	1.000e-09	0.00	0.00	! Charge? Products from Lombardi 2004, rate from Chatham 1983
+AR+ + H2 => AR + H2+		1.000e-09	0.00	0.00	! Dotan 1982
+AR+ + CH4 => AR + CH4+		1.111e-10	0.00	0.00	! Wyatt 1975
+AR + H3+ => AR+ + H + H2	1.508e-13	0.00	0.00	! sigma = 1e-18 cm^2 from Bogaerts 2000
+AR* + H2 => H2+ + AR + E	1.000e-10	0.00	0.00	! Bogaerts 2000
+AR* + H => AR + H*		0.620e-09	0.00	0.00	! Buuron 1995
+AR + H2+ => AR+ + H2		1.461e-10	0.00	0.00	! sigma = 8e-16 cm^2 from Bogaerts 2000
+AR + C2H + H => C2H2 + AR	3.100e-32	0.00	0.00	! Gordillo-Vazquez 2004
+AR* + CH => AR + C + H		5.000e-10	0.00	0.00	! Gordillo-Vazquez 2004
+AR+ + C2H2 => C2H2+ + AR	1.270e-10	0.00	0.00	! sigma = 20e-16 cm^2 from Maier 1965
+AR+ + CH4 => AR + CH3+ + H	1.000e-09	0.00	0.00	! Wyatt 1975
+AR+ + CH4 => AR + CH2+ + H2	3.333e-10	0.00	0.00	! Wyatt 1975 - Not in Lombardi 2004 model
+AR+ + C2H2 => C2H+ + H + AR	1.000e-10	0.00	0.00	! Engeln 1999
+AR* + H2 => H2 + AR		7.000e-11	0.00	0.00	! Bogaerts 2000
+AR* + C2H2 => AR + C2H2+ + E	1.610e-09	0.00	0.00	! Buuron 1995
+AR + C2H2 + H => C2H + H2 + AR	8.790e-31	0.00	0.00	! Gordillo-Vazquez 2004
+AR + C2H3 => C2H2 + H + AR	1.300e-12	0.00	0.00	! Gordillo-Vazquez 2004
+AR + C2H2 => C2 + H2 + AR	5.710e-18	0.00	0.00	! Gordillo-Vazquez 2004
+
+
+
+O2(a1Delta) + O3 => O2 + O2 + O 	9.7e-13		0.0	1564.0
+O2(a1Delta) + O2 => O2 + O2 		2.3e-20		0.8	0.0
+O2(a1Delta) + O => O2 + O 		7e-16		0.0	0.0
+O2(a1Delta) + AR => O2 + AR 		6e-16		0.0	0.0                      !Bogaerts
+O2(b1Sigma) + O3 => O2 + O2 + O 	1.8e-11		0.0	0.0
+O2(b1Sigma) + O2 => O2(a1Delta) + O2 	4.3e-22		2.4	241.0
+O2(b1Sigma) + O => O2(a1Delta) + O 	8e-14		0.0	0.0
+O2(b1Sigma) + O => O2 + O(1D) 		6e-11		-0.1	4201.0
+O2(b1Sigma) + AR => O2 + AR 		1e-16		0.0	0.0                      !Bogaerts
+O(1D) + O2 => O + O2(b1Sigma) 		2.56e-11	0.0	-67.0
+O(1D) + O2 => O + O2 			6.4e-12		0.0	-67.0
+O(1D) + O3 => O + O + O2 		2.3e-10		0.0	0.0
+O(1D) + O3 => O2 + O2 			1.2e-10		0.0	0.0
+O(1D) + AR => O + AR 			5.0e-12		0.0	0.0                     !Bogaerts
+O(1S) + O2 => O(1D) + O2 		1.333e-12	0.0	850.0
+O(1S) + O3 => O(1D) + O + O2 		2.9e-10		0.0	0.0
+O(1S) + O3 => O2 + O2 			2.9e-10		0.0	0.0
+O(1S) + O2(a1Delta) => O(1D) + O2(b1Sigma) 	3.6e-11		0.0	0.0
+O(1S) + O2(a1Delta) => O + O + O 	3.4e-11		0.0	0.0
+O(1S) + O2(a1Delta) => O + O2(a1Delta) 	1.3e-10		0.0	0.0
+O(1S) + O => O(1D) + O 			5e-11		0.0	301.0
+
+!*************************************************************************************************************************************
+! C3H8-air plasma chemical reactions
+!*************************************************************************************************************************************
+
+O2(a1Delta)  + H2     => OH     + OH    2.800E-09  0.00  17906.00 
+O2(a1Delta)  + H2     => O2     + H2    2.600E-19  0.50      0.00 
+O2(a1Delta)  + H      => O      + OH    1.300E-11  0.00   2530.00 
+O2(a1Delta)  + H      => O2     + H     5.200E-11  0.00   2530.00
+O2(a1Delta)  + HO2    => O2     + HO2   2.000E-11  0.00      0.00
+O2(b1Sigma)  + H2     => O2     + H2    1.000E-12  0.00      0.00
+O(1D)        + H2     => H      + OH    1.100E-10  0.00      0.00
+O(1S)        + H2     => O      + H2    2.600E-16  0.00      0.00
+O(1D)         + CH4   => CH3    + OH    1.890E-10  0.00      0.00
+O(1D)         + CH4   => CH3O   + H     0.310E-10  0.00      0.00
+O(1S)         + CH4   => O      + CH4   2.700E-14  0.00      0.00
+O(1D)        + C2H4   => C2H3   + OH    4.000E-10  0.00      0.00
+O(1S)        + C2H4   => O      + C2H4  1.000E-09  0.00      0.00
+O(1D)        + C2H2   => C2H    + OH    3.000E-10  0.00      0.00
+O(1S)        + C2H2   => O      + C2H2  9.000E-10  0.00      0.00
+O(1D)        + C3H8   => NC3H7   + OH   3.950E-10  0.00      0.00
+O(1D)        + C3H8   => IC3H7   + OH   3.950E-10  0.00      0.00
+O(1D)        + C3H6   => C3H5   + OH    1.000E-09  0.00      0.00
+O(1S)        + C3H6   => O      + C3H6  8.000E-10  0.00      0.00
+O(1D)        + C2H6   => C2H5   + OH    6.300E-10  0.00      0.00
+O(1S)        + C2H6   => O      + C2H6  1.000E-12  0.00      0.00
+O + O3 <=> O2 + O2 			2e-11		0.0		2300.0
+O + O + O2 <=> O2 + O2 			2.45e-31	-0.63	0.0
+O + O2 + O2 <=> O3 + O2			8.62e-31	-1.25	0.0
+CH4+ + E => CH3 + H                   6.00e-4      -1.0       0
+TDEP/E/      !recombination
+CH3+ + E => CH2 + H                   6.00e-4      -1.0       0
+TDEP/E/      !recombination
+C2H4+ + E => C2H3 + H                 6.00e-4      -1.0       0
+TDEP/E/      !recombination
+C3H8+ + E => NC3H7 + H                6.00e-4      -1.0       0
+TDEP/E/      !recombination
+O2+ + E => O + O                      6.00e-4      -1.0       0
+     TDEP/E/      
+
+END

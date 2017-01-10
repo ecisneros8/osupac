@@ -1,0 +1,17 @@
+1) Run Bolsig for mixture
+	- Mole fractions must be normalized by hand
+	- Save data - separate tables vs energy
+			uncheck "Selected items only"
+2) Edit config.in for processor and run, making sure fits are reasonable
+3) Create Chemkin Project
+	a) Plasma PSR, Inlet, Product
+	b) Click Update Project
+	c) Open pre-processor, set working dir to a directory in the chemkin projects path
+	d) add gas phase chem set and thermo file
+	e) Run pre-processor - check any errors in log file and modify config.in and rerun matlab processor as neccesary
+	f) Set inlet temp/mole fractions
+	g) Set up PPSR
+		i) Transient Solver
+		ii) t_end, t_res, T, T_e, P, Vol
+		iii) Power profile (import from csv)
+		iv) set initial mole fractions

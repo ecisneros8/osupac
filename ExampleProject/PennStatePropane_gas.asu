@@ -1,0 +1,1184 @@
+242
+species=E                mw=0.000549
+species=N2               mw=28.01340
+species=N2(v1)           mw=28.01340
+species=N2(v2)           mw=28.01340
+species=N2(v3)           mw=28.01340
+species=N2(v4)           mw=28.01340
+species=N2(v5)           mw=28.01340
+species=N2(v6)           mw=28.01340
+species=N2(v7)           mw=28.01340
+species=N2(v8)           mw=28.01340
+species=N2(A3Sigma)      mw=28.01340
+species=N2(B3Pi)         mw=28.01340
+species=N2(W3Delta)      mw=28.01340
+species=N2(Bp3Sigma)     mw=28.01340
+species=N2(ap1Sigma)     mw=28.01340
+species=N2(a1Pi)         mw=28.01340
+species=N2(w1Delta)      mw=28.01340
+species=N2(C3Pi)         mw=28.01340
+species=N2(E3Sigma)      mw=28.01340
+species=N2(app1Sigma)    mw=28.01340
+species=N2+              mw=28.01285
+species=O2               mw=31.99880
+species=O2(v1)           mw=31.99880
+species=O2(v2)           mw=31.99880
+species=O2(v3)           mw=31.99880
+species=O2(v4)           mw=31.99880
+species=O2(a1Delta)      mw=31.99880
+species=O2(b1Sigma)      mw=31.99880
+species=O2+              mw=31.99825
+species=N                mw=14.00670
+species=N(2D)            mw=14.00670
+species=N(2P)            mw=14.00670
+species=O                mw=15.99940
+species=O(1D)            mw=15.99940
+species=O(1S)            mw=15.99940
+species=NO               mw=30.00610
+species=NO2              mw=46.00550
+species=N2O              mw=44.01280
+species=NO3              mw=62.00490
+species=NH               mw=15.01467
+species=O3               mw=47.99820
+species=N2O4             mw=92.01100
+species=N2O5             mw=108.0104
+species=H2               mw=2.015940
+species=H2(v1)           mw=2.015940
+species=H2(v2)           mw=2.015940
+species=H2(v3)           mw=2.015940
+species=H2+              mw=2.015391
+species=C3H5             mw=41.07330
+species=CH4+             mw=16.04248
+species=CH3+             mw=15.03451
+species=C2H4+            mw=28.05363
+species=C3H8+            mw=44.09666
+species=AR               mw=39.94800
+species=HE               mw=4.002600
+species=H                mw=1.007970
+species=CH4              mw=16.04303
+species=CH3              mw=15.03506
+species=CH2              mw=14.02709
+species=CH               mw=13.01912
+species=CH2O             mw=30.02649
+species=HCO              mw=29.01852
+species=CO2              mw=44.00995
+species=CO               mw=28.01055
+species=OH               mw=17.00737
+species=HO2              mw=33.00677
+species=H2O2             mw=34.01474
+species=H2O              mw=18.01534
+species=C2H              mw=25.03027
+species=HCCO             mw=41.02967
+species=C2H2             mw=26.03824
+species=C2H3             mw=27.04621
+species=C2H4             mw=28.05418
+species=C2H5             mw=29.06215
+species=C2H6             mw=30.07012
+species=CH2OH            mw=31.03446
+species=CH3O             mw=31.03446
+species=HCCOH            mw=42.03764
+species=H2CCCH           mw=39.05736
+species=C3H2             mw=38.04939
+species=CH2(S)           mw=14.02709
+species=CH2CO            mw=42.03764
+species=C4H2             mw=50.06054
+species=C5H2             mw=62.07169
+species=C5H3             mw=63.07966
+species=C6H2             mw=74.08284
+species=C2               mw=24.02230
+species=C2O              mw=40.02170
+species=C                mw=12.01115
+species=HCOH             mw=30.02649
+species=CH2CHCCH         mw=52.07648
+species=HCCHCCH          mw=51.06851
+species=H2CCCCH          mw=51.06851
+species=C6H5             mw=77.10675
+species=C6H6             mw=78.11472
+species=C6H5O            mw=93.10615
+species=CH2CHCHCH        mw=53.08445
+species=CH2CHCCH2        mw=53.08445
+species=H2C4O            mw=66.05994
+species=CH2CHCHCH2       mw=54.09242
+species=CH3OH            mw=32.04243
+species=CH2HCO           mw=43.04561
+species=C-C5H5           mw=65.09560
+species=C-C5H5O          mw=81.09500
+species=C-C5H6           mw=66.10357
+species=C6H5OH           mw=94.11412
+species=C10H8            mw=128.1753
+species=C-C5H4OH         mw=81.09500
+species=C-C5H4O          mw=80.08703
+species=C4H10            mw=58.12430
+species=PC4H9            mw=57.11633
+species=SC4H9            mw=57.11633
+species=C4H8-1           mw=56.10836
+species=C4H8-2           mw=56.10836
+species=C4H7             mw=55.10039
+species=C3H6             mw=42.08127
+species=AC3H5            mw=41.07330
+species=PC3H5            mw=41.07330
+species=SC3H5            mw=41.07330
+species=CH2CHCHO         mw=56.06473
+species=PC3H4            mw=40.06533
+species=AC3H4            mw=40.06533
+species=CH3CO            mw=43.04561
+species=C6H5CH2          mw=91.13384
+species=C6H5CH3          mw=92.14181
+species=CH2CHCO          mw=55.05676
+species=CH3CHCO          mw=56.06473
+species=CH3HCO           mw=44.05358
+species=CHOCHO           mw=58.03704
+species=C3H8             mw=44.09721
+species=IC3H7            mw=43.08924
+species=NC3H7            mw=43.08924
+species=CH3CHCCH2        mw=54.09242
+species=CH3CCCH2         mw=53.08445
+species=C6H5C2H5         mw=106.1689
+species=C10H10           mw=130.1912
+species=C10H9            mw=129.1832
+species=C10H7            mw=127.1673
+species=C6H4C2H3         mw=103.1450
+species=C6H4C2H          mw=101.1291
+species=C6H5C2H3         mw=104.1530
+species=C6H5C2H          mw=102.1370
+species=C10H7O           mw=143.1667
+species=C6H5CHO          mw=106.1253
+species=C6H5CO           mw=105.1173
+species=HOC6H4CH3        mw=108.1412
+species=C6H5CH2OH        mw=108.1412
+species=OC6H4O           mw=108.0976
+species=OC6H4CH3         mw=107.1332
+species=C10H7CH2         mw=141.1944
+species=C10H7CH3         mw=142.2024
+species=CH3C6H4CH3       mw=106.1689
+species=INDENE           mw=116.1641
+species=INDENYL          mw=115.1561
+species=ACENPHTHLN       mw=152.1976
+species=PHNTHRN          mw=178.2358
+species=CH3CHCCH         mw=53.08445
+species=CH3CH2CCH        mw=54.09242
+species=CH3C6H4CH2       mw=105.1609
+species=PHNTHRYL-1       mw=177.2278
+species=PHNTHRYL-9       mw=177.2278
+species=FLRNTHN          mw=202.2581
+species=CH3C6H4C2H3      mw=118.1801
+species=CH3C6H4C2H5      mw=120.1960
+species=C-2*4C6H6O       mw=94.11412
+species=C-C5H7           mw=67.11154
+species=L-C5H8           mw=68.11951
+species=L-C5H7           mw=67.11154
+species=C10H7C2H5        mw=156.2294
+species=C10H7C2H3        mw=154.2135
+species=C10H7OH          mw=144.1747
+species=C6H5CCO          mw=117.1285
+species=C6H5CHCH         mw=103.1450
+species=C6H5CCH2         mw=103.1450
+species=C10H7CCH2        mw=153.2055
+species=C10H7CCH         mw=152.1976
+species=C10H6CCH         mw=151.1896
+species=ANTHRACN         mw=178.2358
+species=CH3INDENE        mw=130.1912
+species=CH3INDENYL       mw=129.1832
+species=CH3PHNTHRN       mw=192.2629
+species=PYRENE           mw=202.2581
+species=FLUORYL          mw=165.2167
+species=FLUORENE         mw=166.2247
+species=H2CCCCH2         mw=52.07648
+species=CHCHCHO          mw=55.05676
+species=HCCCHO           mw=54.04879
+species=HCCCO            mw=53.04082
+species=HC4-P(DEF)PTHN   mw=190.2470
+species=HC4-P(DEF)PTHYL  mw=189.2390
+species=PHNTHROXY-1      mw=193.2272
+species=PHNTHROXY-9      mw=193.2272
+species=BZ(A)NDENE       mw=166.2247
+species=BZ(A)NDNYL       mw=165.2167
+species=PHNTHROL-1       mw=194.2352
+species=PHNTHROL-9       mw=194.2352
+species=BIPHENYL         mw=154.2135
+species=BZ(A)PHNTHRN     mw=228.2963
+species=BZ(GHI)FLN       mw=226.2804
+species=FULVENE          mw=78.11472
+species=CH3CY24PD        mw=80.13066
+species=CH3CY24PD1       mw=79.12269
+species=CH3DCY24PD       mw=79.12269
+species=CYC6H7           mw=79.12269
+species=FULVENYL         mw=77.10675
+species=NH2              mw=16.02264
+species=NH3              mw=17.03061
+species=NNH              mw=29.02137
+species=HNO              mw=31.01407
+species=CN               mw=26.01785
+species=HCN              mw=27.02582
+species=H2CN             mw=28.03379
+species=HCNN             mw=41.03252
+species=HCNO             mw=43.02522
+species=HOCN             mw=43.02522
+species=HNCO             mw=43.02522
+species=NCO              mw=42.01725
+species=HNO2             mw=47.01347
+species=HONO             mw=47.01347
+species=HONO2            mw=63.01287
+species=C2COO            mw=75.08804
+species=CCCOO            mw=75.08804
+species=CH3O2            mw=47.03386
+species=CCCHO            mw=58.08067
+species=AC3H5O2          mw=73.07210
+species=CCCOJ            mw=59.08864
+species=C2COJ            mw=59.08864
+species=ACETONE          mw=58.08067
+species=HOC3H6O2         mw=91.08744
+species=HOC2H4O2         mw=77.06035
+species=HOC3H4O3         mw=105.0709
+species=CH3NO            mw=45.04116
+species=CH3ONO           mw=61.04056
+species=CH3ONO2          mw=77.03996
+species=CH3NO2           mw=61.04056
+species=C3H5NO2          mw=87.07880
+species=C6H9             mw=81.13863
+species=C2H5O2           mw=61.06095
+species=CH3CH2O          mw=45.06155
+species=CH2CHCH2O        mw=57.07270
+species=AR*              mw=39.94800
+species=AR+              mw=39.94745
+940
+reaction=E+AR=>AR*+E
+reaction=E+AR=>AR*+E
+reaction=E+AR=>AR++2E
+reaction=E+C3H8=>NC3H7+H+E
+reaction=E+C3H8=>NC3H7+H+E
+reaction=E+C3H8=>C3H8++2E
+reaction=E+O2=>O2(a1Delta)+E
+reaction=E+O2=>O2(b1Sigma)+E
+reaction=E+O2=>O+O(1S)+E
+reaction=E+O2=>2O+E
+reaction=E+O2=>2O+E
+reaction=E+O2=>O+O(1D)+E
+reaction=E+O2=>O+O(1S)+E
+reaction=E+O2=>O2++2E
+reaction=E+AR=>AR+E
+reaction=E+AR=>E+AR
+reaction=E+O2=>E+O2
+reaction=AR*+AR=>2AR
+reaction=AR*+2AR=>3AR
+reaction=AR*+O2=>AR+2O
+reaction=AR*+N2=>AR+2N
+reaction=AR*+H2=>AR+2H
+reaction=AR*+CH4=>AR+CH2+2H
+reaction=AR*+CH4=>AR+CH2+H2
+reaction=AR*+CH4=>AR+CH+H2+H
+reaction=AR*+C2H4=>AR+C2H3+H
+reaction=AR*+C2H2=>AR+C2H+H
+reaction=AR*+C2H6=>AR+C2H5+H
+reaction=AR*+C2H6=>AR+CH+CH3+H2
+reaction=AR*+C2H6=>AR+CH+CH4+H
+reaction=AR*+C3H8=>AR+NC3H7+H
+reaction=AR*+C3H8=>AR+IC3H7+H
+reaction=AR++2E=>AR*+E
+reaction=CH4+AR+=>CH2+H2++AR
+reaction=AR++H2=>AR+H2+
+reaction=AR++CH4=>AR+CH4+
+reaction=AR*+H2=>H2++AR+E
+reaction=AR+H2+=>AR++H2
+reaction=AR+C2H+H=>C2H2+AR
+reaction=AR*+CH=>AR+C+H
+reaction=AR++CH4=>AR+CH3++H
+reaction=AR*+H2=>H2+AR
+reaction=AR+C2H2+H=>C2H+H2+AR
+reaction=AR+C2H3=>C2H2+H+AR
+reaction=AR+C2H2=>C2+H2+AR
+reaction=O2(a1Delta)+O3=>2O2+O
+reaction=O2(a1Delta)+O2=>2O2
+reaction=O2(a1Delta)+O=>O2+O
+reaction=O2(a1Delta)+AR=>O2+AR
+reaction=O2(b1Sigma)+O3=>2O2+O
+reaction=O2(b1Sigma)+O2=>O2(a1Delta)+O2
+reaction=O2(b1Sigma)+O=>O2(a1Delta)+O
+reaction=O2(b1Sigma)+O=>O2+O(1D)
+reaction=O2(b1Sigma)+AR=>O2+AR
+reaction=O(1D)+O2=>O+O2(b1Sigma)
+reaction=O(1D)+O2=>O+O2
+reaction=O(1D)+O3=>2O+O2
+reaction=O(1D)+O3=>2O2
+reaction=O(1D)+AR=>O+AR
+reaction=O(1S)+O2=>O(1D)+O2
+reaction=O(1S)+O3=>O(1D)+O+O2
+reaction=O(1S)+O3=>2O2
+reaction=O(1S)+O2(a1Delta)=>O(1D)+O2(b1Sigma)
+reaction=O(1S)+O2(a1Delta)=>3O
+reaction=O(1S)+O2(a1Delta)=>O+O2(a1Delta)
+reaction=O(1S)+O=>O(1D)+O
+reaction=O2(a1Delta)+H2=>2OH
+reaction=O2(a1Delta)+H2=>O2+H2
+reaction=O2(a1Delta)+H=>O+OH
+reaction=O2(a1Delta)+H=>O2+H
+reaction=O2(a1Delta)+HO2=>O2+HO2
+reaction=O2(b1Sigma)+H2=>O2+H2
+reaction=O(1D)+H2=>H+OH
+reaction=O(1S)+H2=>O+H2
+reaction=O(1D)+CH4=>CH3+OH
+reaction=O(1D)+CH4=>CH3O+H
+reaction=O(1S)+CH4=>O+CH4
+reaction=O(1D)+C2H4=>C2H3+OH
+reaction=O(1S)+C2H4=>O+C2H4
+reaction=O(1D)+C2H2=>C2H+OH
+reaction=O(1S)+C2H2=>O+C2H2
+reaction=O(1D)+C3H8=>NC3H7+OH
+reaction=O(1D)+C3H8=>IC3H7+OH
+reaction=O(1D)+C3H6=>C3H5+OH
+reaction=O(1S)+C3H6=>O+C3H6
+reaction=O(1D)+C2H6=>C2H5+OH
+reaction=O(1S)+C2H6=>O+C2H6
+reaction=O+O3<=>2O2
+reaction=2O+O2<=>2O2
+reaction=O+2O2<=>O3+O2
+reaction=CH4++E=>CH3+H
+reaction=CH3++E=>CH2+H
+reaction=C2H4++E=>C2H3+H
+reaction=C3H8++E=>NC3H7+H
+reaction=O2++E=>2O
+reaction=E+AR=>AR+E
+reaction=OH+H2<=>H+H2O
+reaction=O+OH<=>O2+H
+reaction=O+H2<=>OH+H
+reaction=H+O2(+M)<=>HO2(+M)
+reaction=H+O2(+N2)<=>HO2(+N2)
+reaction=H+O2(+H2)<=>HO2(+H2)
+reaction=H+O2(+H2O)<=>HO2(+H2O)
+reaction=OH+HO2<=>H2O+O2
+reaction=OH+HO2<=>H2O+O2
+reaction=H+HO2<=>2OH
+reaction=H+HO2<=>H2+O2
+reaction=H+HO2<=>O+H2O
+reaction=O+HO2<=>O2+OH
+reaction=2OH<=>O+H2O
+reaction=2H+M<=>H2+M
+reaction=2H+H2<=>2H2
+reaction=2H+H2O<=>H2+H2O
+reaction=H+OH+M<=>H2O+M
+reaction=H+O+M<=>OH+M
+reaction=2O+M<=>O2+M
+reaction=2HO2<=>H2O2+O2
+reaction=2HO2<=>H2O2+O2
+reaction=2OH(+M)<=>H2O2(+M)
+reaction=H2O2+H<=>HO2+H2
+reaction=H2O2+H<=>OH+H2O
+reaction=H2O2+O<=>OH+HO2
+reaction=H2O2+OH<=>H2O+HO2
+reaction=2CH3(+M)<=>C2H6(+M)
+reaction=CH3+H(+M)<=>CH4(+M)
+reaction=CH4+H<=>CH3+H2
+reaction=CH4+OH<=>CH3+H2O
+reaction=CH4+O<=>CH3+OH
+reaction=CH4+HO2<=>CH3+H2O2
+reaction=CH3+HO2<=>CH3O+OH
+reaction=CH3+HO2<=>CH4+O2
+reaction=CH3+O<=>CH2O+H
+reaction=CH3+O2<=>CH3O+O
+reaction=CH3+O2<=>CH2O+OH
+reaction=CH3O+H<=>CH3+OH
+reaction=CH3+OH<=>CH2(S)+H2O
+reaction=CH3+OH<=>CH2+H2O
+reaction=CH3+OH<=>HCOH+H2
+reaction=CH3+OH<=>CH2O+H2
+reaction=CH3+H<=>CH2+H2
+reaction=CH3+M<=>CH+H2+M
+reaction=CH3+M<=>CH2+H+M
+reaction=CH3+OH(+M)<=>CH3OH(+M)
+reaction=CH3OH(+M)<=>HCOH+H2(+M)
+reaction=CH3OH+OH<=>CH2OH+H2O
+reaction=CH3OH+OH<=>CH3O+H2O
+reaction=CH3OH+O<=>CH2OH+OH
+reaction=CH3OH+H<=>CH2OH+H2
+reaction=CH3OH+H<=>CH3O+H2
+reaction=CH3OH+HO2<=>CH2OH+H2O2
+reaction=CH3O+M<=>CH2O+H+M
+reaction=CH2OH+M<=>CH2O+H+M
+reaction=CH3O+H<=>CH2O+H2
+reaction=CH2OH+H<=>CH2O+H2
+reaction=CH3O+OH<=>CH2O+H2O
+reaction=CH2OH+OH<=>CH2O+H2O
+reaction=CH3O+O<=>CH2O+OH
+reaction=CH2OH+O<=>CH2O+OH
+reaction=CH3O+O2<=>CH2O+HO2
+reaction=CH2OH+O2<=>CH2O+HO2
+reaction=CH2OH+O2<=>CH2O+HO2
+reaction=HCOH+OH<=>HCO+H2O
+reaction=HCOH+H<=>CH2O+H
+reaction=HCOH+O<=>CO2+2H
+reaction=HCOH+O<=>CO+OH+H
+reaction=HCOH+O2<=>CO2+H+OH
+reaction=HCOH+O2<=>CO2+H2O
+reaction=CH2+H<=>CH+H2
+reaction=CH2+OH<=>CH+H2O
+reaction=CH2+OH<=>CH2O+H
+reaction=CH2+CO2<=>CH2O+CO
+reaction=CH2+O<=>CO+2H
+reaction=CH2+O<=>CO+H2
+reaction=CH2+O2<=>CH2O+O
+reaction=CH2+O2<=>CO2+2H
+reaction=CH2+O2<=>CO2+H2
+reaction=CH2+O2<=>CO+H2O
+reaction=CH2+O2<=>HCO+OH
+reaction=CH2+CH3<=>C2H4+H
+reaction=2CH2<=>C2H2+2H
+reaction=CH2+HCCO<=>C2H3+CO
+reaction=CH2+C2H2<=>H2CCCH+H
+reaction=CH2(S)+M<=>CH2+M
+reaction=CH2(S)+CH4<=>2CH3
+reaction=CH2(S)+C2H6<=>CH3+C2H5
+reaction=CH2(S)+O2<=>CO+OH+H
+reaction=CH2(S)+H2<=>CH3+H
+reaction=CH2(S)+C2H2<=>H2CCCH+H
+reaction=CH2(S)+C2H4<=>AC3H5+H
+reaction=CH2(S)+O<=>CO+2H
+reaction=CH2(S)+OH<=>CH2O+H
+reaction=CH2(S)+H<=>CH+H2
+reaction=CH2(S)+CO2<=>CH2O+CO
+reaction=CH2(S)+CH3<=>C2H4+H
+reaction=CH2(S)+CH2CO<=>C2H4+CO
+reaction=CH+O2<=>HCO+O
+reaction=CH+O<=>CO+H
+reaction=CH+OH<=>HCO+H
+reaction=CH+OH<=>C+H2O
+reaction=CH+CO2<=>HCO+CO
+reaction=CH+H<=>C+H2
+reaction=CH+H2O<=>CH2O+H
+reaction=CH+CH2O<=>CH2CO+H
+reaction=CH+C2H2<=>C3H2+H
+reaction=CH+CH2<=>C2H2+H
+reaction=CH+CH3<=>C2H3+H
+reaction=CH+CH4<=>C2H4+H
+reaction=C+O2<=>CO+O
+reaction=C+OH<=>CO+H
+reaction=C+CH3<=>C2H2+H
+reaction=C+CH2<=>C2H+H
+reaction=CH2O+OH<=>HCO+H2O
+reaction=CH2O+H<=>HCO+H2
+reaction=CH2O+M<=>HCO+H+M
+reaction=CH2O+O<=>HCO+OH
+reaction=HCO+O2<=>HO2+CO
+reaction=HCO+M<=>H+CO+M
+reaction=HCO+OH<=>H2O+CO
+reaction=HCO+H<=>CO+H2
+reaction=HCO+O<=>CO+OH
+reaction=HCO+O<=>CO2+H
+reaction=CO+OH<=>CO2+H
+reaction=CO+O+M<=>CO2+M
+reaction=CO+O2<=>CO2+O
+reaction=CO+HO2<=>CO2+OH
+reaction=C2H6+CH3<=>C2H5+CH4
+reaction=C2H6+H<=>C2H5+H2
+reaction=C2H6+O<=>C2H5+OH
+reaction=C2H6+OH<=>C2H5+H2O
+reaction=C2H5+H<=>C2H4+H2
+reaction=C2H5+H<=>2CH3
+reaction=C2H5+H<=>C2H6
+reaction=C2H5+OH<=>C2H4+H2O
+reaction=C2H5+O<=>CH3+CH2O
+reaction=C2H5+HO2<=>CH3+CH2O+OH
+reaction=C2H5+O2<=>C2H4+HO2
+reaction=C2H4+H<=>C2H3+H2
+reaction=C2H4+OH<=>C2H3+H2O
+reaction=C2H4+O<=>CH3+HCO
+reaction=C2H4+O<=>CH2HCO+H
+reaction=C2H4+CH3<=>C2H3+CH4
+reaction=C2H4+H(+M)<=>C2H5(+M)
+reaction=C2H4(+M)<=>C2H2+H2(+M)
+reaction=C2H4(+M)<=>C2H3+H(+M)
+reaction=C2H3+H<=>C2H2+H2
+reaction=C2H3+O<=>CH2CO+H
+reaction=C2H3+O2<=>CH2O+HCO
+reaction=C2H3+O2<=>CH2HCO+O
+reaction=C2H3+O2<=>C2H2+HO2
+reaction=C2H3+OH<=>C2H2+H2O
+reaction=C2H3+C2H<=>2C2H2
+reaction=C2H3+CH<=>CH2+C2H2
+reaction=C2H3+CH3<=>AC3H5+H
+reaction=C2H3+CH3<=>C3H6
+reaction=C2H3+CH3<=>C2H2+CH4
+reaction=C2H3+C2H2<=>CH2CHCCH+H
+reaction=C2H3+C2H4<=>CH2CHCHCH2+H
+reaction=2C2H3<=>CH2CHCCH2+H
+reaction=2C2H3<=>C2H4+C2H2
+reaction=C2H2+OH<=>C2H+H2O
+reaction=C2H2+OH<=>HCCOH+H
+reaction=C2H2+OH<=>CH2CO+H
+reaction=C2H2+OH<=>CH2CO+H
+reaction=C2H2+OH<=>CH3+CO
+reaction=HCCOH+H<=>CH2CO+H
+reaction=C2H2+O<=>CH2+CO
+reaction=C2H2+O<=>HCCO+H
+reaction=C2H2+O<=>C2H+OH
+reaction=C2H2+CH3<=>C2H+CH4
+reaction=C2H2+O2<=>HCCO+OH
+reaction=C2H2+M<=>C2H+H+M
+reaction=C2H2+H(+M)<=>C2H3(+M)
+reaction=CH3HCO+OH<=>CH3CO+H2O
+reaction=CH3HCO+H<=>CH3CO+H2
+reaction=CH3HCO+O<=>CH3CO+OH
+reaction=CH3HCO+HO2<=>CH3CO+H2O2
+reaction=CH3HCO+O2<=>CH3CO+HO2
+reaction=CH3HCO+CH3<=>CH3CO+CH4
+reaction=CH2HCO+H<=>CH2CO+H2
+reaction=CH2HCO+O<=>CH2O+HCO
+reaction=CH2HCO+OH<=>CH2CO+H2O
+reaction=CH2HCO+O2<=>CH2O+CO+OH
+reaction=CH2HCO+CH3=>C2H5+CO+H
+reaction=CH2HCO<=>CH2CO+H
+reaction=CHOCHO(+M)<=>CH2O+CO(+M)
+reaction=CHOCHO<=>2CO+H2
+reaction=CHOCHO+OH<=>HCO+CO+H2O
+reaction=CHOCHO+O<=>HCO+CO+OH
+reaction=CHOCHO+H<=>CH2O+HCO
+reaction=CHOCHO+HO2<=>HCO+CO+H2O2
+reaction=CHOCHO+CH3<=>HCO+CO+CH4
+reaction=CHOCHO+O2<=>HCO+CO+HO2
+reaction=CH3CO(+M)<=>CH3+CO(+M)
+reaction=CH2CO+O<=>CO2+CH2
+reaction=CH2CO+H<=>CH3+CO
+reaction=CH2CO+H<=>HCCO+H2
+reaction=CH2CO+O<=>HCCO+OH
+reaction=CH2CO+OH<=>HCCO+H2O
+reaction=CH2CO+OH<=>CH2OH+CO
+reaction=CH2CO(+M)<=>CH2+CO(+M)
+reaction=C2H+H2<=>C2H2+H
+reaction=C2H+O<=>CH+CO
+reaction=C2H+OH<=>HCCO+H
+reaction=C2H+OH<=>C2+H2O
+reaction=C2H+O2<=>2CO+H
+reaction=C2H+C2H2<=>C4H2+H
+reaction=C2H+C2H4<=>CH2CHCCH+H
+reaction=HCCO+C2H2<=>H2CCCH+CO
+reaction=HCCO+H<=>CH2(S)+CO
+reaction=HCCO+O<=>H+2CO
+reaction=HCCO+O<=>CH+CO2
+reaction=HCCO+O2<=>HCO+CO+O
+reaction=HCCO+O2<=>CO2+HCO
+reaction=HCCO+CH<=>C2H2+CO
+reaction=2HCCO<=>C2H2+2CO
+reaction=HCCO+OH<=>C2O+H2O
+reaction=C2O+H<=>CH+CO
+reaction=C2O+O<=>2CO
+reaction=C2O+OH<=>2CO+H
+reaction=C2O+O2<=>2CO+O
+reaction=C2+H2<=>C2H+H
+reaction=C2+O2<=>2CO
+reaction=C2+OH<=>C2O+H
+reaction=C3H8(+M)<=>C2H5+CH3(+M)
+reaction=C3H8+O2<=>IC3H7+HO2
+reaction=C3H8+O2<=>NC3H7+HO2
+reaction=C3H8+HO2<=>NC3H7+H2O2
+reaction=C3H8+HO2<=>IC3H7+H2O2
+reaction=C3H8+OH<=>NC3H7+H2O
+reaction=C3H8+OH<=>IC3H7+H2O
+reaction=C3H8+O<=>NC3H7+OH
+reaction=C3H8+O<=>IC3H7+OH
+reaction=C3H8+H<=>IC3H7+H2
+reaction=C3H8+H<=>NC3H7+H2
+reaction=C3H8+CH3<=>NC3H7+CH4
+reaction=C3H8+CH3<=>IC3H7+CH4
+reaction=C3H8+C2H3<=>IC3H7+C2H4
+reaction=C3H8+C2H3<=>NC3H7+C2H4
+reaction=C3H8+C2H5<=>IC3H7+C2H6
+reaction=C3H8+C2H5<=>NC3H7+C2H6
+reaction=C3H8+AC3H5<=>C3H6+NC3H7
+reaction=C3H8+AC3H5<=>C3H6+IC3H7
+reaction=NC3H7(+M)<=>C2H4+CH3(+M)
+reaction=NC3H7+O2<=>C3H6+HO2
+reaction=IC3H7+O2<=>C3H6+HO2
+reaction=C3H6+H(+M)<=>IC3H7(+M)
+reaction=IC3H7+H<=>C2H5+CH3
+reaction=NC3H7+H<=>C2H5+CH3
+reaction=C3H6<=>PC3H5+H
+reaction=C3H6<=>SC3H5+H
+reaction=C3H6<=>C2H2+CH4
+reaction=C3H6<=>AC3H4+H2
+reaction=C3H6+HO2<=>AC3H5+H2O2
+reaction=C3H6+OH+O2<=>CH3HCO+CH2O+OH
+reaction=C3H6+OH<=>AC3H5+H2O
+reaction=C3H6+OH<=>SC3H5+H2O
+reaction=C3H6+OH<=>PC3H5+H2O
+reaction=C3H6+O<=>CH3CHCO+2H
+reaction=C3H6+O<=>C2H5+HCO
+reaction=C3H6+O<=>AC3H5+OH
+reaction=C3H6+O<=>PC3H5+OH
+reaction=C3H6+O<=>SC3H5+OH
+reaction=C3H6+H<=>C2H4+CH3
+reaction=C3H6+H<=>AC3H5+H2
+reaction=C3H6+H<=>SC3H5+H2
+reaction=C3H6+H<=>PC3H5+H2
+reaction=C3H6+O2<=>PC3H5+HO2
+reaction=C3H6+O2<=>SC3H5+HO2
+reaction=C3H6+O2<=>AC3H5+HO2
+reaction=C3H6+CH3<=>AC3H5+CH4
+reaction=C3H6+CH3<=>SC3H5+CH4
+reaction=C3H6+CH3<=>PC3H5+CH4
+reaction=C3H6+HCO<=>AC3H5+CH2O
+reaction=CH3CHCO+OH<=>CH2CHCO+H2O
+reaction=CH3CHCO+O<=>CH2CHCO+OH
+reaction=CH3CHCO+H<=>CH2CHCO+H2
+reaction=CH3CHCO+H<=>C2H5+CO
+reaction=CH3CHCO+O<=>CH3+HCO+CO
+reaction=CH2CHCHO+OH<=>CH2CHCO+H2O
+reaction=CH2CHCHO+O<=>CH2CHCO+OH
+reaction=CH2CHCHO+O<=>CH2CO+HCO+H
+reaction=CH2CHCHO+H<=>CH2CHCO+H2
+reaction=CH2CHCHO+H<=>C2H4+HCO
+reaction=CH2CHCHO+O2<=>CH2CHCO+HO2
+reaction=CH2CHCO<=>C2H3+CO
+reaction=CH2CHCO+O<=>C2H3+CO2
+reaction=AC3H5+O2<=>CH2CHCHO+OH
+reaction=AC3H5+O2<=>AC3H4+HO2
+reaction=AC3H5+O2<=>CH2HCO+CH2O
+reaction=AC3H5+O2<=>C2H2+CH2O+OH
+reaction=AC3H5+HO2<=>CH2CHCHO+H+OH
+reaction=AC3H5+OH<=>AC3H4+H2O
+reaction=AC3H5+H<=>AC3H4+H2
+reaction=AC3H5+H<=>C3H6
+reaction=AC3H5+O<=>CH2CHCHO+H
+reaction=AC3H5+CH3<=>AC3H4+CH4
+reaction=AC3H5+C2H2<=>C-C5H6+H
+reaction=AC3H5+CH3<=>C4H8-1
+reaction=AC3H5+C2H3<=>C-C5H6+2H
+reaction=PC3H5+O2<=>CH3HCO+HCO
+reaction=PC3H5+O2<=>CH3CHCO+H+O
+reaction=PC3H5+O<=>CH3CHCO+H
+reaction=PC3H5+H<=>PC3H4+H2
+reaction=PC3H5+OH<=>PC3H4+H2O
+reaction=PC3H5+H<=>AC3H5+H
+reaction=SC3H5+H<=>AC3H5+H
+reaction=SC3H5+O2<=>CH3CO+CH2O
+reaction=SC3H5+O<=>CH2CO+CH3
+reaction=SC3H5+H<=>PC3H4+H2
+reaction=SC3H5+OH<=>PC3H4+H2O
+reaction=AC3H4+H<=>H2CCCH+H2
+reaction=AC3H4+O<=>C2H4+CO
+reaction=AC3H4+OH<=>H2CCCH+H2O
+reaction=AC3H4+CH3<=>H2CCCH+CH4
+reaction=AC3H4<=>PC3H4
+reaction=PC3H4+H<=>H2CCCH+H2
+reaction=PC3H4+O<=>C2H4+CO
+reaction=PC3H4+OH<=>H2CCCH+H2O
+reaction=PC3H4+CH3<=>H2CCCH+CH4
+reaction=PC3H4+H<=>CH3+C2H2
+reaction=PC3H4+H(+M)<=>SC3H5(+M)
+reaction=AC3H4+H(+M)<=>AC3H5(+M)
+reaction=AC3H4+H(+M)<=>SC3H5(+M)
+reaction=H2CCCH+O2<=>CH2CO+HCO
+reaction=H2CCCH+O<=>CH2O+C2H
+reaction=H2CCCH+H<=>C3H2+H2
+reaction=H2CCCH+OH<=>C3H2+H2O
+reaction=H2CCCH+C2H3<=>C-C5H5+H
+reaction=H2CCCH+CH3<=>CH3CHCCH2
+reaction=H2CCCH+CH3<=>CH3CH2CCH
+reaction=H2CCCH+CH<=>HCCHCCH+H
+reaction=H2CCCH+CH<=>H2CCCCH+H
+reaction=H2CCCH+H(+M)<=>AC3H4(+M)
+reaction=H2CCCH+H(+M)<=>PC3H4(+M)
+reaction=2H2CCCH<=>C6H6
+reaction=H2CCCH+AC3H5<=>FULVENE+2H
+reaction=2H2CCCH<=>C6H5+H
+reaction=C3H2+O2<=>HCCO+CO+H
+reaction=C3H2+OH<=>C2H2+HCO
+reaction=CHCHCHO+O2<=>HCO+CHOCHO
+reaction=CHCHCHO<=>C2H2+HCO
+reaction=CHCHCHO+H<=>CH2CHCO+H
+reaction=CHCHCHO+OH<=>HCCCHO+H2O
+reaction=CHCHCHO+H<=>HCCCHO+H2
+reaction=HCCCHO+H<=>C2H2+HCO
+reaction=HCCCHO+OH<=>HCCCO+H2O
+reaction=HCCCHO+H<=>HCCCO+H2
+reaction=HCCCO+O2<=>HCO+2CO
+reaction=HCCCO+H<=>C2H2+CO
+reaction=C4H10<=>2C2H5
+reaction=C4H10<=>NC3H7+CH3
+reaction=C4H10<=>PC4H9+H
+reaction=C4H10<=>SC4H9+H
+reaction=C4H10+O2<=>PC4H9+HO2
+reaction=C4H10+O2<=>SC4H9+HO2
+reaction=C4H10+AC3H5<=>PC4H9+C3H6
+reaction=C4H10+AC3H5<=>SC4H9+C3H6
+reaction=C4H10+CH3<=>PC4H9+CH4
+reaction=C4H10+CH3<=>SC4H9+CH4
+reaction=C4H10+H<=>PC4H9+H2
+reaction=C4H10+H<=>SC4H9+H2
+reaction=C4H10+OH<=>PC4H9+H2O
+reaction=C4H10+OH<=>SC4H9+H2O
+reaction=C4H10+O<=>PC4H9+OH
+reaction=C4H10+O<=>SC4H9+OH
+reaction=C4H10+HO2<=>PC4H9+H2O2
+reaction=C4H10+HO2<=>SC4H9+H2O2
+reaction=SC4H9(+M)<=>C3H6+CH3(+M)
+reaction=SC4H9<=>C4H8-1+H
+reaction=SC4H9<=>C4H8-2+H
+reaction=PC4H9(+M)<=>C2H5+C2H4(+M)
+reaction=PC4H9<=>C4H8-1+H
+reaction=C4H8-1<=>C2H3+C2H5
+reaction=C4H8-1<=>H+C4H7
+reaction=C4H8-1+CH3<=>C4H7+CH4
+reaction=C4H8-1+H<=>C4H7+H2
+reaction=C4H8-1+O<=>NC3H7+HCO
+reaction=C4H8-1+O<=>CH2CHCHO+CH3+H
+reaction=C4H8-1+OH<=>C4H7+H2O
+reaction=C4H8-1+AC3H5<=>C4H7+C3H6
+reaction=C4H8-1+O2<=>C4H7+HO2
+reaction=C4H8-2<=>H+C4H7
+reaction=C4H8-2+CH3<=>C4H7+CH4
+reaction=C4H8-2+H<=>C4H7+H2
+reaction=C4H8-2+O<=>IC3H7+HCO
+reaction=C4H8-2+OH<=>C4H7+H2O
+reaction=C4H8-2+O<=>CH3CO+C2H5
+reaction=C4H8-2+O<=>CH3+CH3CHCO+H
+reaction=C4H8-2+O2<=>C4H7+HO2
+reaction=C4H7<=>CH2CHCHCH2+H
+reaction=C4H7+OH<=>CH2CHCHCH2+H2O
+reaction=C4H7+CH3<=>CH2CHCHCH2+CH4
+reaction=C4H7+AC3H5<=>C3H6+CH2CHCHCH2
+reaction=C4H7+O2<=>CH2CHCHCH2+HO2
+reaction=C4H7+H<=>CH2CHCHCH2+H2
+reaction=CH2CHCHCH2+OH<=>CH2CHCHCH+H2O
+reaction=CH2CHCHCH2+OH<=>CH2CHCCH2+H2O
+reaction=CH2CHCHCH2+O<=>HCO+AC3H5
+reaction=CH2CHCHCH2+O<=>CH2HCO+C2H3
+reaction=CH2CHCHCH2+H<=>CH2CHCHCH+H2
+reaction=CH2CHCHCH2+H<=>CH2CHCCH2+H2
+reaction=CH3CH2CCH+OH<=>CH3CHCCH+H2O
+reaction=CH3CH2CCH+H<=>C2H5+C2H2
+reaction=CH3CHCCH2+OH<=>CH2CHCCH2+H2O
+reaction=CH3CHCCH2+OH<=>CH3CCCH2+H2O
+reaction=CH3CHCCH2+OH<=>CH3CHCCH+H2O
+reaction=CH3CHCCH2+H<=>CH2CHCCH2+H2
+reaction=CH3CHCCH2+H<=>CH3CCCH2+H2
+reaction=CH3CHCCH2+H<=>CH3CHCCH+H2
+reaction=CH3CHCCH2+H<=>CH3+AC3H4
+reaction=CH3CHCCH+H<=>CH3+H2CCCH
+reaction=CH3CHCCH+O2<=>CH3CHCO+HCO
+reaction=CH3CHCCH+OH<=>CH2CHCCH+H2O
+reaction=CH2CHCCH2+H<=>CH3+H2CCCH
+reaction=CH2CHCCH2+H<=>CH3CCCH2+H
+reaction=CH2CHCCH2+C2H2<=>C6H6+H
+reaction=CH3CCCH2+H<=>CH3+H2CCCH
+reaction=CH3CCCH2+O2<=>CH3CO+CH2CO
+reaction=CH3CCCH2+H<=>H2CCCCH2+H2
+reaction=CH3CCCH2+OH<=>H2CCCCH2+H2O
+reaction=CH2CHCHCH+H<=>CH2CHCCH2+H
+reaction=CH2CHCHCH+OH<=>CH2CHCCH+H2O
+reaction=CH2CHCHCH+H<=>CH2CHCCH+H2
+reaction=CH2CHCHCH+C2H2<=>C6H6+H
+reaction=CH3CHCCH(+M)<=>CH2CHCCH+H(+M)
+reaction=CH3CCCH2(+M)<=>H2CCCCH2+H(+M)
+reaction=CH2CHCCH2(+M)<=>CH2CHCCH+H(+M)
+reaction=CH2CHCHCH(+M)<=>CH2CHCCH+H(+M)
+reaction=CH2CHCHCH+O2<=>CHCHCHO+CH2O
+reaction=CH2CHCHCH+O2<=>CH2CHCCH+HO2
+reaction=CH3CCCH2+H2CCCH<=>C6H5CH2+H
+reaction=CH3CHCCH+H2CCCH<=>C6H5CH2+H
+reaction=2CH3CCCH2<=>CH3C6H4CH2+H
+reaction=2CH3CHCCH<=>CH3C6H4CH2+H
+reaction=H2CCCCH2+OH<=>H2CCCCH+H2O
+reaction=H2CCCCH2+H<=>H2CCCCH+H2
+reaction=CH2CHCCH+OH<=>HCCHCCH+H2O
+reaction=CH2CHCCH+H<=>HCCHCCH+H2
+reaction=CH2CHCCH+OH<=>H2CCCCH+H2O
+reaction=CH2CHCCH+H<=>H2CCCCH+H2
+reaction=HCCHCCH+H<=>H2CCCCH+H
+reaction=HCCHCCH+C2H2<=>C6H5
+reaction=HCCHCCH+O2<=>HCCCHO+HCO
+reaction=H2CCCCH+O2<=>CH2CO+HCCO
+reaction=H2CCCCH+OH<=>C4H2+H2O
+reaction=H2CCCCH+O<=>CH2CO+C2H
+reaction=H2CCCCH+O<=>H2C4O+H
+reaction=H2CCCCH+H<=>C4H2+H2
+reaction=H2CCCCH+CH2<=>AC3H4+C2H
+reaction=H2CCCCH+C2H2<=>C6H5
+reaction=H2CCCCH(+M)<=>C4H2+H(+M)
+reaction=HCCHCCH(+M)<=>C4H2+H(+M)
+reaction=C4H2+CH2<=>C5H3+H
+reaction=C4H2+CH<=>C5H2+H
+reaction=C4H2+CH2(S)<=>C5H3+H
+reaction=C4H2+C2H<=>C6H2+H
+reaction=C4H2+OH<=>H2C4O+H
+reaction=C4H2+O<=>C3H2+CO
+reaction=H2C4O+H<=>C2H2+HCCO
+reaction=H2C4O+OH<=>CH2CO+HCCO
+reaction=L-C5H8+OH<=>L-C5H7+H2O
+reaction=L-C5H8+H<=>L-C5H7+H2
+reaction=L-C5H8+H<=>AC3H5+C2H4
+reaction=C-C5H7<=>C-C5H6+H
+reaction=C-C5H7<=>L-C5H7
+reaction=L-C5H7+O<=>CH2CHCHO+C2H3
+reaction=L-C5H7+H<=>L-C5H8
+reaction=C-C5H6+O2<=>C-C5H5+HO2
+reaction=C-C5H6+HO2<=>C-C5H5+H2O2
+reaction=C-C5H6+OH<=>C-C5H5+H2O
+reaction=C-C5H6+O<=>C-C5H5+OH
+reaction=C-C5H6+H<=>C-C5H5+H2
+reaction=C-C5H6+CH3<=>C-C5H5+CH4
+reaction=C-C5H6+C2H3<=>C-C5H5+C2H4
+reaction=C-C5H6+CH2CHCHCH<=>C-C5H5+CH2CHCHCH2
+reaction=C-C5H6+C6H5O<=>C-C5H5+C6H5OH
+reaction=C-C5H5+H<=>C-C5H6
+reaction=C-C5H5+O<=>C-C5H4O+H
+reaction=C-C5H5+HO2<=>C-C5H5O+OH
+reaction=C-C5H5+OH<=>C-C5H4OH+H
+reaction=2C-C5H5<=>C10H8+2H
+reaction=C-C5H5O<=>CH2CHCHCH+CO
+reaction=C-C5H4OH<=>C-C5H4O+H
+reaction=C-C5H4O<=>CO+2C2H2
+reaction=C6H6+O2<=>C6H5+HO2
+reaction=C6H6+OH<=>C6H5+H2O
+reaction=C6H6+OH<=>C6H5OH+H
+reaction=C6H6+O<=>C6H5O+H
+reaction=C6H6+H<=>C6H5+H2
+reaction=C6H5+H<=>C6H6
+reaction=C6H5+C2H4<=>C6H5C2H3+H
+reaction=C6H5+C2H2<=>C6H5C2H+H
+reaction=C6H5+OH<=>C6H5O+H
+reaction=C6H5+O<=>C-C5H5+CO
+reaction=C6H5+O2<=>C6H5O+O
+reaction=C6H5+O2<=>OC6H4O+H
+reaction=2C6H5<=>BIPHENYL
+reaction=C6H5+C6H6<=>BIPHENYL+H
+reaction=OC6H4O<=>C-C5H4O+CO
+reaction=C6H5O<=>CO+C-C5H5
+reaction=C6H5O+H<=>C6H5OH
+reaction=C6H5O+H<=>C-2*4C6H6O
+reaction=C6H5OH+OH<=>C6H5O+H2O
+reaction=C6H5OH+CH3<=>C6H5O+CH4
+reaction=C6H5OH+H<=>C6H5O+H2
+reaction=C6H5OH+O<=>C6H5O+OH
+reaction=C6H5OH+C2H3<=>C2H4+C6H5O
+reaction=C6H5OH+C6H5<=>C6H6+C6H5O
+reaction=C-2*4C6H6O+H<=>C-C5H7+CO
+reaction=C6H5CH3<=>C6H5+CH3
+reaction=C6H5CH3+O2<=>C6H5CH2+HO2
+reaction=C6H5CH3+OH<=>C6H5CH2+H2O
+reaction=C6H5CH3+O<=>C6H5CH2+OH
+reaction=C6H5CH3+H<=>C6H5CH2+H2
+reaction=C6H5CH3+H<=>C6H6+CH3
+reaction=C6H5CH3+O<=>OC6H4CH3+H
+reaction=C6H5CH3+CH3<=>CH4+C6H5CH2
+reaction=C6H5CH3+C6H5<=>C6H6+C6H5CH2
+reaction=C6H5CH2+H<=>C6H5CH3
+reaction=C6H5CH2+C6H5OH<=>C6H5O+C6H5CH3
+reaction=C6H5CH2+HOC6H4CH3<=>OC6H4CH3+C6H5CH3
+reaction=C6H5CH2+O<=>C6H5CHO+H
+reaction=C6H5CH2+O<=>C6H5+CH2O
+reaction=C6H5CH2+HO2<=>C6H5CHO+H+OH
+reaction=C6H5CH2+HO2<=>C6H5+CH2O+OH
+reaction=C6H5CH2+CH3<=>C6H5C2H5
+reaction=C6H5CH2+H2CCCH<=>C10H10
+reaction=C6H5CH2+C2H2<=>INDENE+H
+reaction=C6H5CH2+C6H5CHO<=>C6H5CH3+C6H5CO
+reaction=C6H5CH2+OH<=>C6H5CH2OH
+reaction=C6H5CH2OH+OH<=>C6H5CHO+H2O+H
+reaction=C6H5CH2OH+H<=>C6H5CHO+H2+H
+reaction=C6H5CH2OH+H<=>C6H6+CH2OH
+reaction=C6H5CH2OH+C6H5CH2<=>C6H5CHO+C6H5CH3+H
+reaction=C6H5CH2OH+C6H5<=>C6H5CHO+C6H6+H
+reaction=C6H5CHO+O2<=>C6H5CO+HO2
+reaction=C6H5CHO+OH<=>C6H5CO+H2O
+reaction=C6H5CHO+H<=>C6H5CO+H2
+reaction=C6H5CHO+H<=>C6H5+CH2O
+reaction=C6H5CHO+H<=>C6H6+HCO
+reaction=C6H5CHO+O<=>C6H5CO+OH
+reaction=C6H5CHO+CH3<=>CH4+C6H5CO
+reaction=C6H5CHO+C6H5<=>C6H6+C6H5CO
+reaction=C6H5CO<=>C6H5+CO
+reaction=OC6H4CH3+H<=>HOC6H4CH3
+reaction=OC6H4CH3<=>C6H6+H+CO
+reaction=HOC6H4CH3+OH<=>OC6H4CH3+H2O
+reaction=HOC6H4CH3+H<=>OC6H4CH3+H2
+reaction=HOC6H4CH3+H<=>C6H5CH3+OH
+reaction=HOC6H4CH3+H<=>C6H5OH+CH3
+reaction=C6H5C2H5+OH<=>C6H5C2H3+H2O+H
+reaction=C6H5C2H5+H<=>C6H5C2H3+H2+H
+reaction=C6H5C2H3+OH<=>C6H4C2H3+H2O
+reaction=C6H5C2H3+H<=>C6H4C2H3+H2
+reaction=C6H5C2H3+OH<=>C6H5CCH2+H2O
+reaction=C6H5C2H3+H<=>C6H5CCH2+H2
+reaction=C6H5CHCH+H<=>C6H5CCH2+H
+reaction=C6H5CCH2+OH<=>C6H5C2H+H2O
+reaction=C6H5CCH2+H<=>C6H5C2H+H2
+reaction=C6H5C2H+O<=>C6H5CCO+H
+reaction=C6H5CCO+O2<=>C6H5CO+CO2
+reaction=C6H5C2H+OH<=>C6H4C2H+H2O
+reaction=C6H5C2H+H<=>C6H4C2H+H2
+reaction=C6H5C2H+CH3<=>C6H4C2H+CH4
+reaction=C6H4C2H+C2H2<=>C10H7
+reaction=C6H4C2H3+CH3<=>INDENE+2H
+reaction=CH3C6H4CH3+OH<=>CH3C6H4CH2+H2O
+reaction=CH3C6H4CH3+O<=>CH3C6H4CH2+OH
+reaction=CH3C6H4CH3+H<=>CH3C6H4CH2+H2
+reaction=CH3C6H4CH2+C2H2<=>C10H10+H
+reaction=CH3C6H4CH2+C2H2<=>CH3INDENE+H
+reaction=CH3C6H4CH2+H<=>CH3C6H4CH3
+reaction=CH3C6H4CH2+CH3<=>CH3C6H4C2H5
+reaction=INDENE+OH<=>INDENYL+H2O
+reaction=INDENE+O<=>INDENYL+OH
+reaction=INDENE+H<=>INDENYL+H2
+reaction=INDENYL+H<=>INDENE
+reaction=INDENYL+O<=>C6H5CHCH+CO
+reaction=INDENYL+HO2<=>C6H5CHCH+CO+OH
+reaction=INDENYL+C-C5H5<=>PHNTHRN+2H
+reaction=CH3C6H4C2H5+OH<=>CH3C6H4C2H3+H2O+H
+reaction=CH3C6H4C2H5+H<=>CH3C6H4C2H3+H2+H
+reaction=CH3C6H4C2H3+OH<=>INDENE+H+H2O
+reaction=CH3C6H4C2H3+H<=>INDENE+H+H2
+reaction=CH3INDENE+OH<=>CH3INDENYL+H2O
+reaction=CH3INDENE+O<=>CH3INDENYL+OH
+reaction=CH3INDENE+H<=>CH3INDENYL+H2
+reaction=CH3INDENE+H<=>INDENE+CH3
+reaction=CH3INDENYL+H<=>CH3INDENE
+reaction=CH3INDENYL+C-C5H5<=>CH3PHNTHRN+2H
+reaction=C10H10+OH<=>C10H9+H2O
+reaction=C10H10+O<=>C10H9+OH
+reaction=C10H10+H<=>C10H9+H2
+reaction=C10H9+H<=>C10H10
+reaction=C10H8+H<=>C10H9
+reaction=C10H8+OH<=>C10H7+H2O
+reaction=C10H8+OH<=>C10H7OH+H
+reaction=C10H8+O<=>C10H7O+H
+reaction=C10H8+H<=>C10H7+H2
+reaction=C10H7+H<=>C10H8
+reaction=C10H7+O2<=>C10H7O+O
+reaction=C10H7+OH<=>C10H7O+H
+reaction=C10H7+CH3<=>C10H7CH2+H
+reaction=C10H7+C2H2<=>ACENPHTHLN+H
+reaction=C10H7+C2H2<=>C10H7CCH+H
+reaction=C10H7+C6H5<=>FLRNTHN+2H
+reaction=C10H7+C6H6<=>FLRNTHN+H+H2
+reaction=C10H7O+H<=>C10H7OH
+reaction=C10H7OH+OH<=>C10H7O+H2O
+reaction=C10H7OH+H<=>C10H7O+H2
+reaction=C10H7O<=>INDENYL+CO
+reaction=C10H7CH3+OH<=>C10H7CH2+H2O
+reaction=C10H7CH3+O<=>C10H7CH2+OH
+reaction=C10H7CH3+H<=>C10H7CH2+H2
+reaction=C10H7CH3+H<=>C10H8+CH3
+reaction=C10H7CH2+H<=>C10H7CH3
+reaction=C10H7CH2+O<=>C10H7+CH2O
+reaction=C10H7CH2+HO2=>C10H7+CH2O+OH
+reaction=C10H7CH2+C2H2<=>BZ(A)NDENE+H
+reaction=C10H7CH2+CH3<=>C10H7C2H5
+reaction=C10H7C2H5+OH<=>C10H7C2H3+H2O+H
+reaction=C10H7C2H5+H<=>C10H7C2H3+H2+H
+reaction=C10H7C2H3+OH<=>C10H7CCH2+H2O
+reaction=C10H7C2H3+H<=>C10H7CCH2+H2
+reaction=C10H7CCH2+OH<=>C10H7CCH+H2O
+reaction=C10H7CCH2+H<=>C10H7CCH+H2
+reaction=C10H7CCH+OH<=>C10H6CCH+H2O
+reaction=C10H7CCH+H<=>C10H6CCH+H2
+reaction=C10H7CCH+H<=>ACENPHTHLN+H
+reaction=C10H6CCH+C2H2<=>PHNTHRYL-1
+reaction=FLUORENE+OH<=>FLUORYL+H2O
+reaction=FLUORENE+O<=>FLUORYL+OH
+reaction=FLUORENE+H<=>FLUORYL+H2
+reaction=FLUORYL+H<=>FLUORENE
+reaction=BZ(A)NDNYL+H<=>BZ(A)NDENE
+reaction=BZ(A)NDENE+OH<=>BZ(A)NDNYL+H2O
+reaction=BZ(A)NDENE+O<=>BZ(A)NDNYL+OH
+reaction=BZ(A)NDENE+H<=>BZ(A)NDNYL+H2
+reaction=BZ(A)NDNYL+C-C5H5<=>BZ(A)PHNTHRN+2H
+reaction=PHNTHRN+OH<=>PHNTHRYL-1+H2O
+reaction=PHNTHRN+OH<=>PHNTHRYL-9+H2O
+reaction=PHNTHRN+OH<=>PHNTHROL-1+H
+reaction=PHNTHRN+OH<=>PHNTHROL-9+H
+reaction=PHNTHRN+H<=>PHNTHRYL-1+H2
+reaction=PHNTHRN+H<=>PHNTHRYL-9+H2
+reaction=ANTHRACN<=>PHNTHRN
+reaction=PHNTHRYL-1+H<=>PHNTHRN
+reaction=PHNTHRYL-9+H<=>PHNTHRN
+reaction=PHNTHRYL-1+O2<=>PHNTHROXY-1+O
+reaction=PHNTHRYL-9+O2<=>PHNTHROXY-9+O
+reaction=PHNTHROL-1+OH<=>PHNTHROXY-1+H2O
+reaction=PHNTHROL-1+H<=>PHNTHROXY-1+H2
+reaction=PHNTHROXY-1+H<=>PHNTHROL-1
+reaction=PHNTHROL-9+OH<=>PHNTHROXY-9+H2O
+reaction=PHNTHROL-9+H<=>PHNTHROXY-9+H2
+reaction=PHNTHROXY-9+H<=>PHNTHROL-9
+reaction=PHNTHROXY-1<=>BZ(A)NDNYL+CO
+reaction=PHNTHROXY-9<=>FLUORYL+CO
+reaction=PHNTHRYL-1+C2H2<=>PYRENE+H
+reaction=PHNTHRYL-1+CH3<=>HC4-P(DEF)PTHN+2H
+reaction=CH3PHNTHRN+OH<=>HC4-P(DEF)PTHN+H2O+H
+reaction=CH3PHNTHRN+H<=>HC4-P(DEF)PTHN+H2+H
+reaction=CH3PHNTHRN+H<=>PHNTHRN+CH3
+reaction=HC4-P(DEF)PTHN+OH<=>HC4-P(DEF)PTHYL+H2O
+reaction=HC4-P(DEF)PTHN+O<=>HC4-P(DEF)PTHYL+OH
+reaction=HC4-P(DEF)PTHN+H<=>HC4-P(DEF)PTHYL+H2
+reaction=HC4-P(DEF)PTHYL+H<=>HC4-P(DEF)PTHN
+reaction=BZ(A)PHNTHRN+H<=>BZ(GHI)FLN+H2+H
+reaction=BZ(A)PHNTHRN+OH<=>BZ(GHI)FLN+H2O+H
+reaction=H2CCCH+CH2<=>CH2CHCCH+H
+reaction=C-C5H5+CH3<=>CH3CY24PD
+reaction=CH3CY24PD+H<=>C-C5H6+CH3
+reaction=C6H6+H<=>CH3CY24PD1
+reaction=CYC6H7<=>CH3CY24PD1
+reaction=CH3CY24PD1+H<=>CH3CY24PD
+reaction=CH3CY24PD1+H<=>C-C5H5+CH3
+reaction=CYC6H7<=>CH3DCY24PD
+reaction=C6H6+H<=>CYC6H7
+reaction=CH3DCY24PD+H2<=>CH3CY24PD+H
+reaction=FULVENE<=>C6H6
+reaction=FULVENE+H<=>C6H6+H
+reaction=FULVENE+H<=>FULVENYL+H2
+reaction=FULVENE+OH<=>FULVENYL+H2O
+reaction=FULVENYL+H<=>C6H5+H
+reaction=FULVENYL+O2<=>C-C5H4O+HCO
+reaction=N+NO<=>N2+O
+reaction=N+O2<=>NO+O
+reaction=N+OH<=>NO+H
+reaction=N2O+O<=>N2+O2
+reaction=N2O+O<=>2NO
+reaction=N2O+H<=>N2+OH
+reaction=N2O+OH<=>N2+HO2
+reaction=N2O(+M)<=>N2+O(+M)
+reaction=NO+HO2<=>NO2+OH
+reaction=NO+O+M<=>NO2+M
+reaction=NO2+O<=>NO+O2
+reaction=NO2+H<=>NO+OH
+reaction=NH+O<=>NO+H
+reaction=NH+H<=>N+H2
+reaction=NH+OH<=>HNO+H
+reaction=NH+OH<=>N+H2O
+reaction=NH+O2<=>HNO+O
+reaction=NH+O2<=>NO+OH
+reaction=NH+N<=>N2+H
+reaction=NH+H2O<=>HNO+H2
+reaction=NH+NO<=>N2+OH
+reaction=NH+NO<=>N2O+H
+reaction=NH2+O<=>OH+NH
+reaction=NH2+O<=>H+HNO
+reaction=NH2+H<=>NH+H2
+reaction=NH2+OH<=>NH+H2O
+reaction=NNH<=>N2+H
+reaction=NNH+M<=>N2+H+M
+reaction=NNH+O2<=>HO2+N2
+reaction=NNH+O<=>OH+N2
+reaction=NNH+O<=>NH+NO
+reaction=NNH+H<=>H2+N2
+reaction=NNH+OH<=>H2O+N2
+reaction=NNH+CH3<=>CH4+N2
+reaction=H+NO+M<=>HNO+M
+reaction=HNO+O<=>NO+OH
+reaction=HNO+H<=>H2+NO
+reaction=HNO+OH<=>NO+H2O
+reaction=HNO+O2<=>HO2+NO
+reaction=CN+O<=>CO+N
+reaction=CN+OH<=>NCO+H
+reaction=CN+H2O<=>HCN+OH
+reaction=CN+O2<=>NCO+O
+reaction=CN+H2<=>HCN+H
+reaction=NCO+O<=>NO+CO
+reaction=NCO+H<=>NH+CO
+reaction=NCO+OH<=>NO+H+CO
+reaction=NCO+N<=>N2+CO
+reaction=NCO+O2<=>NO+CO2
+reaction=NCO+M<=>N+CO+M
+reaction=NCO+NO<=>N2O+CO
+reaction=NCO+NO<=>N2+CO2
+reaction=HCN+M<=>H+CN+M
+reaction=HCN+O<=>NCO+H
+reaction=HCN+O<=>NH+CO
+reaction=HCN+O<=>CN+OH
+reaction=HCN+OH<=>HOCN+H
+reaction=HCN+OH<=>HNCO+H
+reaction=HCN+OH<=>NH2+CO
+reaction=H+HCN+M<=>H2CN+M
+reaction=H2CN+N<=>N2+CH2
+reaction=C+N2<=>CN+N
+reaction=CH+N2<=>HCN+N
+reaction=CH+N2(+M)<=>HCNN(+M)
+reaction=CH2+N2<=>HCN+NH
+reaction=CH2(S)+N2<=>NH+HCN
+reaction=C+NO<=>CN+O
+reaction=C+NO<=>CO+N
+reaction=CH+NO<=>HCN+O
+reaction=CH+NO<=>H+NCO
+reaction=CH+NO<=>N+HCO
+reaction=CH2+NO<=>H+HNCO
+reaction=CH2+NO<=>OH+HCN
+reaction=CH2+NO<=>H+HCNO
+reaction=CH2(S)+NO<=>H+HNCO
+reaction=CH2(S)+NO<=>OH+HCN
+reaction=CH2(S)+NO<=>H+HCNO
+reaction=CH3+NO<=>HCN+H2O
+reaction=CH3+NO<=>H2CN+OH
+reaction=HCNN+O<=>CO+H+N2
+reaction=HCNN+O<=>HCN+NO
+reaction=HCNN+O2<=>O+HCO+N2
+reaction=HCNN+OH<=>H+HCO+N2
+reaction=HCNN+H<=>CH2+N2
+reaction=HNCO+O<=>NH+CO2
+reaction=HNCO+O<=>HNO+CO
+reaction=HNCO+O<=>NCO+OH
+reaction=HNCO+H<=>NH2+CO
+reaction=HNCO+H<=>H2+NCO
+reaction=HNCO+OH<=>NCO+H2O
+reaction=HNCO+OH<=>NH2+CO2
+reaction=HNCO+M<=>NH+CO+M
+reaction=HCNO+H<=>H+HNCO
+reaction=HCNO+H<=>OH+HCN
+reaction=HCNO+H<=>NH2+CO
+reaction=HOCN+H<=>H+HNCO
+reaction=HCCO+NO<=>HCNO+CO
+reaction=CH3+N<=>H2CN+H
+reaction=CH3+N<=>HCN+H2
+reaction=NH3+H<=>NH2+H2
+reaction=NH3+OH<=>NH2+H2O
+reaction=NH3+O<=>NH2+OH
+reaction=CH3NO2(+M)<=>CH3+NO2(+M)
+reaction=CH3NO2+OH<=>CH2O+NO+H2O
+reaction=CH3NO2+O<=>CH2O+NO+OH
+reaction=CH3NO2+H<=>CH2O+NO+H2
+reaction=CH3NO2+CH3<=>CH2O+NO+CH4
+reaction=AC3H5+NO2<=>C3H5NO2
+reaction=C3H5NO2+OH<=>CH2CHCHO+NO+H2O
+reaction=C3H5NO2+H<=>CH2CHCHO+NO+H2
+reaction=C3H5NO2+CH3<=>CH2CHCHO+NO+CH4
+reaction=HNO2+H<=>NO2+H2
+reaction=HNO2+O<=>NO2+OH
+reaction=HNO2+OH<=>NO2+H2O
+reaction=HNO2+CH3<=>NO2+CH4
+reaction=HNO2<=>HONO
+reaction=HONO+CH3<=>NO2+CH4
+reaction=HONO+OH<=>NO2+H2O
+reaction=HONO+O<=>NO2+OH
+reaction=HONO+H<=>NO2+H2
+reaction=2HONO<=>NO+NO2+H2O
+reaction=NO+OH(+M)<=>HONO(+M)
+reaction=OH+NO2(+M)<=>HONO2(+M)
+reaction=HONO2+OH<=>NO3+H2O
+reaction=NO3<=>NO+O2
+reaction=NO2+O+M<=>NO3+M
+reaction=2NO2<=>NO3+NO
+reaction=2NO2<=>NO3+NO
+reaction=CH3O+NO(+M)<=>CH3ONO(+M)
+reaction=CH3O2+NO<=>CH3O+NO2
+reaction=C2H5O2+NO<=>CH3CH2O+NO2
+reaction=HOC2H4O2+NO<=>CH2OH+CH2O+NO2
+reaction=AC3H5O2+NO<=>CH2CHCH2O+NO2
+reaction=HOC3H6O2+NO<=>CH2OH+CH3HCO+NO2
+reaction=HOC3H4O3+NO<=>CHOCHO+CH2OH+NO2
+reaction=CCCOO+NO<=>CCCOJ+NO2
+reaction=C2COO+NO<=>C2COJ+NO2
+reaction=CH3O+NO<=>CH2O+HNO
+reaction=CH3CH2O+NO<=>CH3HCO+HNO
+reaction=CH2CHCH2O+NO<=>CH2CHCHO+HNO
+reaction=CCCOJ+NO<=>CCCHO+HNO
+reaction=CH3+NO(+M)<=>CH3NO(+M)
+reaction=CO+NO2<=>CO2+NO
+reaction=CH3+NO2<=>CH3O+NO
+reaction=CH3O+NO2(+M)<=>CH3ONO2(+M)
+reaction=C2H5+NO2<=>CH3CH2O+NO
+reaction=CH2HCO+NO2<=>CH2O+HCO+NO
+reaction=AC3H5+NO2<=>CH2CHCH2O+NO
+reaction=C6H9+NO2<=>CH2CHCHO+AC3H5+NO
+reaction=NO2+HO2<=>HONO+O2
+reaction=CH3O+NO2<=>CH2O+HONO
+reaction=CH3CH2O+NO2<=>CH3HCO+HONO
+reaction=CH2CHCH2O+NO2<=>CH2CHCHO+HONO
+reaction=C2COJ+NO2<=>ACETONE+HONO
+reaction=CCCOJ+NO2<=>CCCHO+HONO

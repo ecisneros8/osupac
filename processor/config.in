@@ -1,0 +1,120 @@
+# This is the configuration file for the processor.  Here is where you can
+# change settings about how the processor works, and what information it
+# processes.
+#
+# In this file, any line starting with a '!', '#', or a '%', will be 
+# considered a comment line and ignored by the processor.  Additionally all
+# blank lines will be ignored.
+#
+#
+#
+# Relative or absolute path to the output file from Bolsig+
+# bolsigOutputFile=PACMuriTestMethaneAir.dat
+bolsigOutputFile=pacTestAR.dat
+
+# Relative or absolute path to the cross-section file used by Bolsig+ to 
+# produce the file located at 'bolsigOutputFile'
+bolsigXSFile=LXCat-June2013.txt
+
+# Flag to indicate whether Bolsig+ reactions with the same output species 
+# (after renaming using the rules below) should be combined prior to fitting
+# or left as duplicate reactions in the ChemKin-Pro chemistry file
+combineDuplicateBolsigReactions = false
+
+# Relative or absolute path to the ChemKin-Pro chemistry file which will be
+# merged with the electron impact chemistry from Bolsig+
+chemKinInputFile = ../chem/H2-N2-O2_MaasPope.chem
+
+# Relative or absolute path to the plasma/ion chemistry file
+# plasmaInputFile = chem/airPlasmaChem.inp
+plasmaInputFile = ../chem/CxHy-N2-O2_plasma.chem
+
+# Relative or absolute path to the output ChemKin-Pro chemistry file, which
+# will contain the merged chemistry
+chemKinOutputFile = testOutput.txt
+
+# These lines are for ensuring there is no excitation at low Te.  Between
+# pulses the electron temperature remains at a few thousand K, to avoid
+# ChemKin crashes, and is maintained by "fake" heating reactions.  TeSS
+# represents the approximate steady state electron temperature between 
+# pulses, in eV.  kmax represents the maximum rate coefficient for 
+# inelastic processes at TeSS, which is imposed.  Increasing kmax and 
+# reducing TeSS will improve the quality of fits, but they must be chosen
+# such that ChemKin does not crash between pulses.
+TeSS = 0.4
+kmax = 1e-15
+
+# The silent parameter controls whether the rates are plotted between each 
+# fitting.  A value of true means the fitting routine runs without input 
+# from the user while a value of false will plot each fit with the data 
+# from Bolsig+
+silent = false
+
+# Additional lines can be added to 'rename' the products of processes 
+# included in the Bolsig+ calculations.  For each species to be renamed, 
+# include a line starting with the species name as it appears in the file,
+# bolsigXSFile, followed by an equals sign, followed by the name to be used
+# by ChemKin.  Species can only be renamed once, however multiple species 
+# can be renamed to the same output species (i.e. N2(A3Sigma) and N2(B3Pi) 
+# can both be renamed to N2*).  If multiple processes have the same
+# product species, they will be combined into a single process prior to 
+# curve fitting the rates.  Finally, if you want a process included in the 
+# Bolsig+ calculation to be left out of the ChemKin calculation, simply 
+# rename the product species to nothing (i.e. include a line 'N2(v1) = ' to
+# ignore the excitation of N2(v1) in ChemKin).
+
+N2(rot) =
+O2(rot) = 
+
+# This line is required to deal with the Bolsig+ process for 3 body 
+# attachment.  The first line (commented out) would be appropriate, however 
+# ChemKin throws an error with TDEP and 3-body reaction being mutually 
+# exclusive
+!O2 = O2- + M
+O2 = 
+
+# Rename ions, the first two are removed because of lack of thermo data at 
+# present time
+H^- = 
+CH2^- = 
+CH4^+ = CH4+
+CH3^+ = CH3+
+
+O^- = O-
+# These are renaming specifications required for use of the air plasma 
+# chemistry
+N2(v1res) = N2(v1)
+N2(A3,v0-4) = N2(A3Sigma)
+N2(A3,v5-9) = N2(A3Sigma)
+N2(A3,v10-) = N2(A3Sigma)
+N2(B3) = N2(B3Pi)
+N2(B'3) = N2(Bp3Sigma)
+N2(W3) = N2(W3Delta)
+N2(a1) = N2(a1Pi)
+N2(a'1) = N2(ap1Sigma)
+N2(a"1) = N2(app1Sigma)
+N2(w1) = N2(w1Delta)
+N2(C3) = N2(C3Pi)
+N2(E3) = N2(E3Sigma)
+N2(SUM) = N + N
+N2^+ = N2+
+
+O2(v1res) = O2(v1)
+O2(v2res) = 
+O2(v2) = 
+O2(v3) =
+O2(v4) = 
+O2(a1) = O2(a1Delta)
+O2(b1) = O2(b1Sigma)
+O2(4.5eV) = O + O
+O2(6.0eV) = O + O
+O2(8.4eV) = O + O(1D)
+O2(9.97eV) = O+O(1S)
+O2^+ = O2+
+
+CH4(V24)(0.162eV) = CH4(V24)
+CH4(V13)(0.361eV) = 
+CH4*(9eV-dissoc) = CH3 + H
+CH4*(10eV-dissoc) = CH3 + H
+CH4*(11eV-dissoc) = CH3 + H
+CH4*(12eV-dissoc) = CH3 + H

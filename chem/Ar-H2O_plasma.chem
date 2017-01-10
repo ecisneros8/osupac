@@ -1,0 +1,46 @@
+ELEM E H O N AR
+END
+
+SPECIES
+E
+AR   H   O   H2   O2   OH   H2O   HO2   H2O2 N2
+AR*   AR+    H2O+ 
+END
+
+REACTIONS  KELVIN  MOLECULES
+
+!*************************************************************************************************************************************
+! Fictitious electron heating by momenum transfer collisions, needed to prevent Te from becoming too low in the afterglow
+! ChemKin using Bolsig+ fits would crash if Te < 0.4 eV 
+! To change equivalence ratio, (a) run Bolsig+ for the mixture of choice, 
+! (b) post-process / convert fit for momentum transfer rate in Bolsig+ output to ChemKin format, (c) incorporate it here 
+!*************************************************************************************************************************************
+
+AR + E => AR + E     4.510E-10	0.5523       0.00
+FIT1   /3.194E+03	-1.401E+06	2.380E+08	0/ 
+TDEP/E/     
+EXCI/ -0.00008/
+
+H2O + E => H2O + E     4.510E-10	0.5523       0.00
+FIT1   /3.194E+03	-1.401E+06	2.380E+08	0/ 
+TDEP/E/     
+EXCI/ -0.00008/
+
+
+!*************************************************************************************************************************************
+! Dominant electron-ion recombination processes (need work)
+!*************************************************************************************************************************************
+
+H2O+ + E => OH + H                     		 1.00e-6      0.0       0
+     TDEP/E/      ! recomibnation
+
+AR+ + E => AR                     		 1.00e-6      0.0       0
+     TDEP/E/      ! recomibnation
+
+
+!*************************************************************************************************************************************
+! AR-H2O plasma: reactions of electronically excited species
+!*************************************************************************************************************************************
+AR*  + H2O => AR + H + OH                          4.800E-10  0.00      0.00
+
+END

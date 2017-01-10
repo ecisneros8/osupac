@@ -1,0 +1,29 @@
+function configOptions = configSetup()
+	addpath config
+
+	configOptions = ConfigOptions();
+
+	configOptions.clearCommentChars();
+	configOptions.addCommentChars('#%!');
+
+	configOptions.allowExtraParams();
+
+	configOptions.addParameter( ...
+		ConfigParameter('bolsigOutputFile', 'str', true));
+	configOptions.addParameter( ...
+		ConfigParameter('bolsigXSFile', 'str', true));
+	configOptions.addParameter( ...
+		ConfigParameter('combineDuplicateBolsigReactions', 'bool', true, false));
+	configOptions.addParameter( ...
+		ConfigParameter('chemKinInputFile', 'str', true));
+	configOptions.addParameter( ...
+		ConfigParameter('plasmaInputFile', 'str', true));
+	configOptions.addParameter( ...
+		ConfigParameter('chemKinOutputFile', 'str', true));
+	configOptions.addParameter( ...
+		ConfigParameter('TeSS', 'numeric', true, 0));
+	configOptions.addParameter( ...
+		ConfigParameter('kmax', 'numeric', true, 1));
+	configOptions.addParameter( ...
+		ConfigParameter('silent', 'bool', true, false));
+end
